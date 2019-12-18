@@ -9,10 +9,11 @@
     "pages/profile/profile"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ededed",
     "navigationBarTitleText": "电影 << 豆瓣",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
   },
   "sitemapLocation": "sitemap.json"
 }
