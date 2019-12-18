@@ -1,4 +1,11 @@
 {
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ededed",
+    "navigationBarTitleText": "电影 << 豆瓣",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
   "pages": [
     "pages/cover/cover",
     "pages/index/index",
@@ -8,14 +15,6 @@
     "pages/search/search",
     "pages/profile/profile"
   ],
-  "window": {
-    "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#ededed",
-    "navigationBarTitleText": "电影 << 豆瓣",
-    "navigationBarTextStyle": "black",
-    "enablePullDownRefresh": false
-  },
-  "sitemapLocation": "sitemap.json",
   "tabBar":{
     "color": "#fff",
     "selectedColor": "#000000",
@@ -41,5 +40,24 @@
         "selectedIconPath": "images/profile-actived.png"
       }
     ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "networkTimeout":{
+    "request":20000,
+    "downloadFile":20000
+  },
+  "debug":true,
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "style": "v2",
+  "useExtendedLib": {
+    "kbone": false,
+    "weui": true
+  },
+  "usingComponents": {
+    "mp-dialog": "/path/components/dialog/dialog"
   }
 }
