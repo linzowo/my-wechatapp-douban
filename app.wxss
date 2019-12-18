@@ -1,1 +1,1 @@
-@import './node_modules/weui-miniprogram/miniprogram_dist/weui-wxss/dist/style/weui.wxss';
+@import './miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
