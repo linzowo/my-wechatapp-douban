@@ -1,12 +1,17 @@
 {
   "pages": [
+    "pages/cover/cover",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/board/board",
+    "pages/list/list",
+    "pages/item/item",
+    "pages/search/search",
+    "pages/profile/profile"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "mypage",
+    "navigationBarTitleText": "电影 << 豆瓣",
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json"
