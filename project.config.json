@@ -10,6 +10,7 @@
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
@@ -20,13 +21,12 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"nodeModules": true
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.4",
 	"appid": "wxa402a6002f5e02ac",
-	"projectname": "miniprogram-1",
+	"projectname": "豆瓣电影",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
