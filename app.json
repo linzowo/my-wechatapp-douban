@@ -58,6 +58,6 @@
     "weui": true
   },
   "usingComponents": {
-    "mp-dialog": "/path/components/dialog/dialog"
+    "mp-dialog": "/miniprogram_npm/weui-miniprogram/dialog/dialog"
   }
 }

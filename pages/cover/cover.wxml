@@ -1,3 +1,9 @@
-<text class="" selectable="false" space="false" decode="false">
-    hello world
-</text>
+<view class="container">
+    <swiper>
+        <swiper-item>
+            <image src="https://img3.doubanio.com/view/photo/l/public/p2575892083.webp" />
+            <!-- <view class="swiper-item"></view> -->
+            <button>开始体验</button>
+        </swiper-item>
+    </swiper>
+</view>
