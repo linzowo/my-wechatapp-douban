@@ -7,8 +7,8 @@
     "enablePullDownRefresh": false
   },
   "pages": [
-    "pages/cover/cover",
     "pages/index/index",
+    "pages/cover/cover",
     "pages/board/board",
     "pages/list/list",
     "pages/item/item",

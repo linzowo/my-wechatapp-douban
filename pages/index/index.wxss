@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.slide swiper{
+    height: 480rpx;
+}
+.slide swiper-item{
+    height: 100%;
+    width: 100%;
+}
+.slide swiper image{
+    width: 100%;
+}
