@@ -32,28 +32,299 @@
                     <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFill" lazy-load="false" binderror="" bindload=""></image>
                 </navigator>
             </swiper-item>
-
-
         </swiper>
     </view>
-
-
-
     <!-- 主体列表模块 -->
     <view class="rank-list" hover-class="none" hover-stop-propagation="false">
         <!-- 根据条件渲染多个模块 -->
         <!-- <block wx:for="{{items}}"> -->
-        <!-- 列表标题==》兼跳转按钮 -->
-        <navigator class="rank-list-title" target="" url="" hover-class="navigator-hover" open-type="navigate">
-            <view class="title" hover-class="none" hover-stop-propagation="false">正在上映的电影-成都</view>
-            <image class="" src="../../images/arrowright.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
-        </navigator>
+        <!-- 电影列表 -->
         <view class="rank-list-item" hover-class="none" hover-stop-propagation="false">
+            <!-- 列表标题==》兼跳转按钮 -->
+            <navigator class="rank-list-title" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                <view class="title" hover-class="none" hover-stop-propagation="false">
+                    正在上映的电影-成都
+                </view>
+                <image class="" src="../../images/arrowright.png" mode="aspectFit"></image>
+            </navigator>
             <scroll-view class="content" scroll-x="true">
                 <view class="inner" hover-class="none" hover-stop-propagation="false">
                     <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
                         <view class="movie-item" hover-class="none" hover-stop-propagation="false">
-                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp"></image>
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="rank-list-item" hover-class="none" hover-stop-propagation="false">
+            <!-- 列表标题==》兼跳转按钮 -->
+            <navigator class="rank-list-title" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                <view class="title" hover-class="none" hover-stop-propagation="false">
+                    正在上映的电影-成都
+                </view>
+                <image class="" src="../../images/arrowright.png" mode="aspectFit"></image>
+            </navigator>
+            <scroll-view class="content" scroll-x="true">
+                <view class="inner" hover-class="none" hover-stop-propagation="false">
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="rank-list-item" hover-class="none" hover-stop-propagation="false">
+            <!-- 列表标题==》兼跳转按钮 -->
+            <navigator class="rank-list-title" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                <view class="title" hover-class="none" hover-stop-propagation="false">
+                    正在上映的电影-成都
+                </view>
+                <image class="" src="../../images/arrowright.png" mode="aspectFit"></image>
+            </navigator>
+            <scroll-view class="content" scroll-x="true">
+                <view class="inner" hover-class="none" hover-stop-propagation="false">
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                </view>
+            </scroll-view>
+        </view>
+        <view class="rank-list-item" hover-class="none" hover-stop-propagation="false">
+            <!-- 列表标题==》兼跳转按钮 -->
+            <navigator class="rank-list-title" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                <view class="title" hover-class="none" hover-stop-propagation="false">
+                    正在上映的电影-成都
+                </view>
+                <image class="" src="../../images/arrowright.png" mode="aspectFit"></image>
+            </navigator>
+            <scroll-view class="content" scroll-x="true">
+                <view class="inner" hover-class="none" hover-stop-propagation="false">
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
+                            <text>平原上的夏洛克</text>
+                        </view>
+                    </navigator>
+                    <navigator class="" target="" url="" hover-class="navigator-hover" open-type="navigate">
+                        <view class="movie-item" hover-class="none" hover-stop-propagation="false">
+                            <image class="" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2574198225.webp" mode="aspectFit"></image>
                             <text>平原上的夏洛克</text>
                         </view>
                     </navigator>
