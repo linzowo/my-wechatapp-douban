@@ -1,3 +1,18 @@
-<text class="" selectable="false" space="false" decode="false">
-    hello world
-</text>
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <!-- 背景图片 -->
+    <image class="background" src="https://img3.doubanio.com/view/photo/l/public/p2570137991.webp" mode="aspectFit"></image>
+    <!-- 简介 -->
+    <view class="meta" hover-class="none" hover-stop-propagation="false">
+        <image class="poster" src="https://img3.doubanio.com/view/photo/l/public/p2570137991.webp" mode="aspectFit"></image>
+        <text class="title">82年生的金智英</text>
+        <text class="info">评分：8.7</text>
+        <text class="info">导演: 金度英</text>
+        <text class="info">主演: 郑有美 / 孔侑 / 金美京 / 孔敏晶 / 朴成妍</text>
+    </view>
+    <!-- 摘要 -->
+    <view class="summary" hover-class="none" hover-stop-propagation="false">
+        <text class="label">摘要:</text>
+        <text class="content">同名小说改编而成，直击韩国家庭和社会上的性别不公议题。金智英（郑有美 饰）一直按照社会规范下的女性身份生活，成为重男轻女的父母所期待的「好女儿」，职场上温顺隐忍的「好女人」，和以家庭为重的「好妻子」。直到一天她好似被附身一样，言行如同自己的母亲一般，丈夫（孔侑 饰）决定带她接受心理咨询，两个人一同重新面对她的人生伤痛。小说面世以来饱受争议，甚至在电影改编计划期间出现全国性的请愿反对，这段「不可言说」的故事面对社会压力仍被搬上银幕，值得关注
+        </text>
+    </view>
+</view>
