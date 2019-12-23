@@ -1,6 +1,8 @@
+<import src="../common/common" />
 <view class="container" hover-class="none" hover-stop-propagation="false">
     <view class="header">
         <input type="text" class="search" auto-focus />
     </view>
-    
+    <!-- 引入电影列表 -->
+    <template is="movie-list"></template>
 </view>
