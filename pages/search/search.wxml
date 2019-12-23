@@ -1,0 +1,6 @@
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="header">
+        <input type="text" class="search" auto-focus />
+    </view>
+    
+</view>
