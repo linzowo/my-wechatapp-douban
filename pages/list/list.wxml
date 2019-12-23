@@ -1,3 +1,251 @@
-<text class="" selectable="false" space="false" decode="false">
-    hello world
-</text>
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="list" hover-class="none" hover-stop-propagation="false">
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+        <navigator url="../item/item?id=1" hover-class="navigator-hover" open-type="navigate">
+            <view class="item" hover-class="none" hover-stop-propagation="false">
+                <image role="img" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2568902055.webp"></image>
+                <view class="meta">
+                    <text class="title">爱尔兰人</text>
+                    <text class="sub-title">The Irishman (2019)</text>
+                    <view class="artists">导演： 马丁·斯科塞斯</view>
+                </view>
+                <view class="ranting">
+                    <text>9.0</text>
+                </view>
+            </view>
+        </navigator>
+    </view>
+</view>

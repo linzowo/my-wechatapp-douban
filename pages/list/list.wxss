@@ -1,0 +1,61 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.list {
+    height: 100%;
+}
+
+.item {
+    display: flex;
+    padding: 20rpx 40rpx;
+    border-bottom: 1rpx solid #eee;
+    cursor: pointer;
+}
+
+/* 电影海报 */
+.item image {
+    width: 128rpx;
+    height: 168rpx;
+    margin-right: 20rpx;
+}
+
+/* 电影信息 */
+.item .meta{
+    flex: 1;
+}
+
+.item .meta text{
+    display: block;
+    margin-bottom: 15rpx;
+}
+
+.item .meta .title {
+    line-height: 42rpx;
+    font-size: 32rpx;
+}
+
+.item .meta .sub-title {
+    font-size: 22rpx;
+    line-height: 24rpx;
+    color: #c0c0c0;
+}
+
+.item .meta .artists {
+    font-size: 24rpx;
+    color: #999;
+}
+
+
+/* 评分 */
+.item .ranting text {
+    color: #fff;
+    display: inline-block;
+    width: 40rpx;
+    background-color: rgba(247, 76, 49, 0.8);
+    border-radius: 20rpx;
+    padding: 10rpx;
+    font-size: 28rpx;
+    text-align: center;
+    font-weight: bold;
+}
