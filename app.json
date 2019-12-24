@@ -7,10 +7,10 @@
     "enablePullDownRefresh": false
   },
   "pages": [
+    "pages/cover/cover",
     "pages/index/index",
     "pages/list/list",
     "pages/item/item",
-    "pages/cover/cover",
     "pages/board/board",
     "pages/search/search",
     "pages/profile/profile"
