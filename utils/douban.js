@@ -1,7 +1,7 @@
 // 存放和豆瓣相关的处理函数
 
 // 声明公共文件
-const URL = "https://douban.uieee.com/v2/movie";
+const URL = "https://douban-api.uieee.com/v2/movie";
 
 // 引入相关功能模块
 import fetch from "./fetch.js";
@@ -36,9 +36,7 @@ const find = function(type, page = 1, count = 20, search = "") {
   return fetchAPI(
     type,
     search ? Object.assign(params, { q: search }) : params
-  ).then(res => {
-    res.data;
-  });
+  ).then(res => res.data);
 };
 
 /**
@@ -47,8 +45,8 @@ const find = function(type, page = 1, count = 20, search = "") {
  * @return {Promise}       包含请求任务的promise
  */
 const findOne = function(id) {
-  return fetchAPI("subject/" + id).then(res=>{
-      res.data;
+  return fetchAPI("subject/" + id).then(res => {
+    res.data;
   });
 };
 // 导出相关api
