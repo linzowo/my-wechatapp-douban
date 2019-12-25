@@ -64,7 +64,7 @@
 }
 
 .rank-list-item .movie-item image{
-    width: 100%;
+    width: 180rpx;
     height: 250rpx;
 }
 
