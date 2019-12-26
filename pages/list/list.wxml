@@ -1,4 +1,4 @@
 <import src="../common/common"/>
 <view class="container" hover-class="none" hover-stop-propagation="false">
-    <template is="movie-list"></template>
+    <template is="movie-list" data="{{list,hasMore}}"></template>
 </view>

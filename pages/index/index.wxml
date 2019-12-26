@@ -16,7 +16,7 @@
         <!-- 电影列表 -->
         <view class="rank-list-item">
             <!-- 列表标题==》兼跳转按钮 -->
-            <navigator target="" url="../list/list?id=1">
+            <navigator target="" url="../list/list?type={{item.key}}">
                 <view class="rank-list-title">
                     <view class="title">
                         {{item.title}}

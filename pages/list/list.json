@@ -1,3 +1,3 @@
 {
-    "navigationBarTitleText": "豆瓣电影新片榜 << 电影 << 豆瓣"
+    "enablePullDownRefresh": true
 }

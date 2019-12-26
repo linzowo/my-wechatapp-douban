@@ -56,3 +56,26 @@
     text-align: center;
     font-weight: bold;
 }
+
+/* 下拉加载样式 */
+
+/* 上滑加载样式 */
+.tips{
+    display: flex;
+    flex-direction: column;
+    font-size: 28rpx;
+    color: #ccc;
+    text-align: center;
+    padding: 50rpx;
+}
+
+.tips image,
+.tips text{
+    vertical-align: middle;
+}
+
+.tips image {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 20rpx;
+}
