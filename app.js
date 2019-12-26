@@ -5,12 +5,6 @@ const wechat = require("./utils/wechat.js");
 const baidu = require("./utils/baidu.js");
 const douban = require("./utils/douban.js");
 
-// TODO：动态获取封面图片
-// 现在要做的是对指定api发起一个请求，获得对应的结果
-// 所以现在需要以下内容
-// 指定api
-// 一个发起请求的方式
-// 结果处理函数
 App({
   data: {
     name: "Douban Movie",
@@ -42,7 +36,7 @@ App({
         return baidu.getCtiyName(latitude, longitude);
       })
       .then(name => {
-        // 将获取到的城市名去掉 市 
+        // 将获取到的城市名去掉 市
         this.data.currentCity = name.replace("市", "");
       })
       .catch(err => {
@@ -55,28 +49,20 @@ App({
   /**
    * 生命周期函数--监听小程序启动或切前台
    */
-  onShow() {
-    // TODO: onShow
-  },
+  onShow() {},
 
   /**
    * 生命周期函数--监听小程序切后台
    */
-  onHide() {
-    // TODO: onHide
-  },
+  onHide() {},
 
   /**
    * 生命周期函数--错误监听函数
    */
-  onError() {
-    // TODO: onError
-  },
+  onError() {},
 
   /**
    * 页面相关事件处理函数--页面不存在
    */
-  onPageNotFound() {
-    // TODO: onPageNotFound
-  }
+  onPageNotFound() {}
 });

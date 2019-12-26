@@ -10,15 +10,15 @@
         </swiper>
     </view>
     <!-- 主体列表模块 -->
-    <view class="rank-list" hover-class="none" hover-stop-propagation="false">
+    <view class="rank-list">
         <!-- 根据条件渲染多个模块 -->
         <block wx:for="{{list}}" wx:key="id">
         <!-- 电影列表 -->
         <view class="rank-list-item">
             <!-- 列表标题==》兼跳转按钮 -->
-            <navigator target="" url="../list/list?id=1" hover-class="navigator-hover" open-type="navigate">
-                <view class="rank-list-title" hover-class="none" hover-stop-propagation="false">
-                    <view class="title" hover-class="none" hover-stop-propagation="false">
+            <navigator target="" url="../list/list?id=1">
+                <view class="rank-list-title">
+                    <view class="title">
                         {{item.title}}
                     </view>
                     <image class="" src="../../images/arrowright.png" mode="aspectFit"></image>
