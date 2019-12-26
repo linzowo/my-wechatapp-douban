@@ -45,9 +45,7 @@ const find = function(type, page = 1, count = 20, search = "") {
  * @return {Promise}       包含请求任务的promise
  */
 const findOne = function(id) {
-  return fetchAPI("subject/" + id).then(res => {
-    res.data;
-  });
+  return fetchAPI("subject/" + id).then(res => res.data);
 };
 // 导出相关api
 module.exports = { find, findOne };

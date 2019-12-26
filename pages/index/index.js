@@ -31,9 +31,6 @@ Page({
         list: list
       });
 
-      console.log(this.data.list);
-      
-      
       wx.hideLoading();
     });
   }
