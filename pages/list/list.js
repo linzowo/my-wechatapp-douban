@@ -4,7 +4,7 @@ const app = getApp();
 
 Page({
   data: {
-    title: "",
+    title: null,
     type: "in_theaters",
     list: [],
     page: 1,
@@ -21,12 +21,17 @@ Page({
     return app.douban
       .find(this.data.type, this.data.page++, this.data.size)
       .then(d => {
+        if (!this.data.title) {
+          wx.setNavigationBarTitle({
+            title: d.title + " << 电影 << 豆瓣"
+          });
+        }
+
         this.setData({
           title: d.title,
           list: this.data.list.concat(d.subjects),
           hasMore: this.data.page - 1 < Math.ceil(d.total / this.data.size)
         });
-        console.log(this.data);
 
         wx.hideLoading();
       })
