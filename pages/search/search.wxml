@@ -1,8 +1,8 @@
 <import src="../common/common" />
 <view class="container" hover-class="none" hover-stop-propagation="false">
     <view class="header">
-        <input type="text" class="search" focus="true" placeholder="请输入要搜索的电影" placeholder-class="search-placeholder" />
+        <input class="search" placeholder="{{subtitle}}" placeholder-class="search-placeholder" bindconfirm="handleSearch" />
     </view>
     <!-- 引入电影列表 -->
-    <template is="movie-list"></template>
+    <template is="movie-list" data="{{list,hasMore}}"></template>
 </view>
