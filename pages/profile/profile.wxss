@@ -1,0 +1,40 @@
+.avatar{
+    width: 400rpx;
+    height: 400rpx;
+    overflow: hidden;
+    border-radius: 200rpx;
+    margin: 50rpx auto;
+    box-shadow: 0 0 10rpx 50rpx rgb(231, 219, 110);
+    animation: avatar-animation 1s linear infinite;
+}
+@keyframes avatar-animation{
+    from{
+    box-shadow: 0 0 10rpx 0rpx rgb(148, 238, 148,.3);
+    }
+    to{
+    box-shadow: 0 0 10rpx 40rpx rgb(148, 238, 148,.3);
+    }
+}
+.avatar image{
+    height: 100%;
+    width: 100%;
+}
+
+.about{
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: rgb(88, 221, 70); */
+}
+.about text{
+    display: block;
+}
+.about .title{
+    font-size: 42rpx;
+}
+
+.about .content,
+.about .github{
+    font-size: 24rpx;
+    padding: 2em;
+}
+

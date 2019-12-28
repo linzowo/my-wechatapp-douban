@@ -1,3 +1,11 @@
-<text class="" selectable="false" space="false" decode="false">
-    hello world
-</text>
+<view class="container" hover-class="none" hover-stop-propagation="false">
+    <view class="avatar" hover-class="none" hover-stop-propagation="false">
+        <image src="http://m.qpic.cn/psb?/V11CA95048EY0H/vjiZQ9JO4qDDTBsHhLbuVKLpaaLI7u.FnWlxq5WMEh0!/b/dL8AAAAAAAAA&bo=AAIAAgAAAAARFyA!&rf=viewer_4" mode="widthFix" lazy-load="true"></image>
+    </view>
+    <view class="about" hover-class="none" hover-stop-propagation="false">
+        <text class="title">简介：</text>
+        <text class="content">野生前端开发者，前医务工作者，现在仍在不断学习技能中</text>
+        <text class="github">GitHub:
+            https://github.com/linzowo</text>
+    </view>
+</view>
