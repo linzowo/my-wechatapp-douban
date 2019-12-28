@@ -1,8 +1,7 @@
 <view class="container">
     <swiper>
         <swiper-item wx:for="{{ movies }}" wx:for-index="index" wx:key="id">
-            <image src="{{ item.images.large }}" />
-            <!-- <view class="swiper-item"></view> -->
+            <image src="{{ item.images.large }}" mode="aspectFill" />
             <button bind:tap="handleStart">开始体验</button>
         </swiper-item>
     </swiper>
